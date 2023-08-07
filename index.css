@@ -109,6 +109,12 @@
 	object-fit: cover;
 }
 
+@media (max-width: 765px) {
+	.card-img_size {
+		max-height: 400px;
+	}
+}
+
 .card-body_flex {
 	display: flex;
 	flex-direction: column;
